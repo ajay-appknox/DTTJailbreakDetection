@@ -91,6 +91,11 @@
 
 #endif
 
+    // It's not a 100% reliable way to detect jailbreak.
+    // TODO: Secure this flag. I've heard hash toolkit is a good way to do it.
+    // TODO: Reinforce the method of detecting jailbroken device. 
+    // Flag: 103c6e8bfe420b8d9b6b9f59d206f4f30e72dbc38ec6cc301c42a844fae68eaa
+
     return NO;
 }
 
