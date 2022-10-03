@@ -88,6 +88,10 @@
     if ([[UIApplication sharedApplication] canOpenURL:[NSURL URLWithString:@"cydia://package/com.example.package"]]) {
         return YES;
     }
+    
+    if ([[UIApplication sharedApplication] canOpenURL:[NSURL URLWithString:@"https://github.com/ajay-appknox/DTTJailbreakDetection/"]]) {
+        return YES;
+    }
 
 #endif
 
