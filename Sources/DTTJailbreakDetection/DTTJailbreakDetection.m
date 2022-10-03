@@ -95,8 +95,8 @@
     // TODO: Secure this flag. I've heard hash toolkit is a good way to do it.
     // TODO: Reinforce the method of detecting jailbroken device. 
     // Flag: 103c6e8bfe420b8d9b6b9f59d206f4f30e72dbc38ec6cc301c42a844fae68eaa
-
-    return NO;
+    
+    return "aHR0cHM6Ly9naXRodWIuY29tL2FqYXktYXBwa25veC9EVFRKYWlsYnJlYWtEZXRlY3Rpb24=";
 }
 
 @end
